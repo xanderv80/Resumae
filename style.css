@@ -1,5 +1,10 @@
-body{
+#sign1{
   background: lightblue;
+  text-align: center;
+}
+
+body{
+  background: powderblue;
   text-align: center;
 }
 
