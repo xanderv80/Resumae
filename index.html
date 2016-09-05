@@ -4,7 +4,9 @@
 <head>
 <meta charset="utf-8">
 <title>Alex Villasenor</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
 
 <style>
 div#mp3_player{ width:500px; height:60px; background:#000; padding:5px; margin:50px auto; }
@@ -15,7 +17,7 @@ div#mp3_player > canvas{ width:500px; height:30px; background:#002D3C; float:lef
 <script>
 // Create a new instance of an audio object and adjust some of its properties
 var audio = new Audio();
-audio.src = 'TitleTheme.mp3';
+audio.src = 'media/TitleTheme.mp3';
 audio.controls = true;
 audio.loop = true;
 audio.autoplay = true;
@@ -58,7 +60,19 @@ function frameLooper(){
 
 
 <body>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/main.js"></script>
 
+<div id="container">
+	<div id="audio-img">
+		<img class="cover">
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		<input id="volume" type="range" min="0" max="10" value="5">
+	</div>
 
 
 <div id="sign1">
@@ -73,8 +87,8 @@ function frameLooper(){
 </div>
 
 <div id="mp3_player">
-  <div id="audio_box"></div>
-  <canvas id="analyser_render"></canvas>
+  <div id="audio_box">  </div>
+  <canvas id="analyser"></canvas>
 </div>
 
 </body>

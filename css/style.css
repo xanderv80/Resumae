@@ -1,0 +1,16 @@
+#sign1{
+  background: lightblue;
+  text-align: center;
+}
+
+body{
+  background: powderblue;
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
