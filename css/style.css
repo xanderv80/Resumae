@@ -1,25 +1,23 @@
-
 @import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
 
-#sign1{
-  background: lightblue;
-  text-align: center;
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 body{
-  background: powderblue;
-  text-align: center;
+	background: #454545;
+	padding: 2%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	color: #FAFAFA;
+	line-height: 26px;
+	text-align: justify;
 }
 
-.wrapper{
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-
-#name1{
-font-family: 'Bungee Shade', cursive; 
+header{
+	text-align: center;
 }
 
 nav{
@@ -67,15 +65,3 @@ nav li:last-child a{
 }
 
 
-
-
-
-
-/*#mp3_player{
-
-width:500px; height:60px; background:#000; padding:5px; margin:50px auto; 
-div > audio  width:500px; background:#000; float:left;  
-canvas width:500px; height:30px; background:#002D3C; float:left; 
-
-}
-*/
