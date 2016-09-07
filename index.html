@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>J Alex Villasenor</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<title>J Alex Villasenor</title>
 
-<link href="css/style.css" rel="stylesheet" type="text/css">
+	<style>
+		div#mp3_player{ width:500px; height:60px; background:#000; padding:5px; margin:50px auto; }
+		div#mp3_player > div > audio{  width:500px; background:#000; float:left;  }
+		div#mp3_player > canvas{ width:500px; height:30px; background:#002D3C; float:left; }
+	</style>
 
-
-<style>
-div#mp3_player{ width:500px; height:60px; background:#000; padding:5px; margin:50px auto; }
-div#mp3_player > div > audio{  width:500px; background:#000; float:left;  }
-div#mp3_player > canvas{ width:500px; height:30px; background:#002D3C; float:left; }
-</style>
-
-<script>
+	<script>
 // Create a new instance of an audio object and adjust some of its properties
 var audio = new Audio();
 audio.src = 'media/TitleTheme.mp3';
@@ -58,80 +57,94 @@ function frameLooper(){
 
 </head>
 
-
 <body>
-<script src="js/jquery-3.1.0.min.js"></script>
-<script src="js/main.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/main.js"></script>
 
-<div id="container">
-	<div id="audio-img">
-		<img class="cover">
-	</div>
-	<div id="audio-player">
-		<div id="audio-info">
-			<span class="artist"></span> - <span class="title"></span>
+	<header>
+		<a href="#"><img src="img/8bitheroes.jpg"/></a>
+	</header>
+	<nav>
+		<ul>
+			<li class='active'><a href="#">About Me</a></li>
+			<li><a href="#">Professional</a></li>
+			<li><a href="#">Work History</a></li>
+			<li><a href="#">References</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+
+
+	<div id="container">
+		<div id="audio-img">
+			<img class="cover">
 		</div>
-		<input id="volume" type="range" min="0" max="10" value="5">
-	</div>
+		<div id="audio-player">
+			<div id="audio-info">
+				<span class="artist"></span> - <span class="title"></span>
+			</div>
+			<input id="volume" type="range" min="0" max="10" value="5">
+		</div>
 
-<div class="wrapper">
-	
-<img src="img/8bitMegaMan.png">
+		<div class="wrapper">
 
-</div>
+			<img src="img/8bitMegaMan.png">
 
-<div id="name">
-<h1> Alex Villasenor <h1>
-</div>
-<div id="subtitle">
-<h2> Will code for food <h2>
-</div>
-<div id="category">
-<h3> Experience <h3>
-</div>
+		</div>
 
-<div id="example">
-<h4> ArtsTech <h4>
-</div>
-<div id="text">
-<p> Director of Digital Literacy </p>
-<p> October 2010  - Present </p>
-</div>
-<div id="text">
-<p> Repaired and refurbished desktops, laptops, tablets and phones for clients. Designed, built and maintained company website, multiple computer labs, file network, security camera system, e-mail server, and YouTube channel. Taught digital literacy classes to all age groups. Managed high school interns and trained them with digital skills.
-Follow links for more details. </p>
-</div>
+		<div id="name1">
+			<h1> Alex Villasenor <h1>
+			</div>
+			<div id="subtitle">
+				<h2> Will code for food <h2>
+				</div>
+				<div id="category">
+					<h3> Experience <h3>
+					</div>
 
-<div id="example">
-<h4> Scuola Vita Nuova <h4>
-</div>
-<div id="text">
-<p> Information Tech Director </p>
-<p> August 2005  - October 2010 </p>
-</div>
-<div id="text">
-<p> Maintained students computer lab. Taught computer classes to middle school students. Designed databases for state and federal reports on student meals and attendance. Set up teachers digital gradebook and lesson plan software. Assisted Missouri Education with the DESE database that the state uses to collect data from all charter schools. </p>
-</div>
+					<div id="example">
+						<h4> ArtsTech <h4>
+						</div>
+						<div id="text">
+							<p> Director of Digital Literacy </p>
+							<p> October 2010  - Present </p>
+						</div>
+						<div id="text">
+							<p> Repaired and refurbished desktops, laptops, tablets and phones for clients. Designed, built and maintained company website, multiple computer labs, file network, security camera system, e-mail server, and YouTube channel. Taught digital literacy classes to all age groups. Managed high school interns and trained them with digital skills.
+								Follow links for more details. </p>
+							</div>
 
-<div id="example">
-<h4> MPP Inc <h4>
-</div>
-<div id="text">
-<p> IT Tech </p>
-<p> February 2001 - August 2005 </p>
-</div>
-<div id="text">
-<p> Bilingual interpreter for all departments. Maintained employee’s computers. Set up database to digitize all paperwork to offsite servers. Process insurance applications, claims and cancellations. Designed monthly reports for shareholders. </p>
-</div>
+							<div id="example">
+								<h4> Scuola Vita Nuova <h4>
+								</div>
+								<div id="text">
+									<p> Information Tech Director </p>
+									<p> August 2005  - October 2010 </p>
+								</div>
+								<div id="text">
+									<p> Maintained students computer lab. Taught computer classes to middle school students. Designed databases for state and federal reports on student meals and attendance. Set up teachers digital gradebook and lesson plan software. Assisted Missouri Education with the DESE database that the state uses to collect data from all charter schools. </p>
+								</div>
 
-
+								<div id="example">
+									<h4> MPP Inc <h4>
+									</div>
+									<div id="text">
+										<p> IT Tech </p>
+										<p> February 2001 - August 2005 </p>
+									</div>
+									<div id="text">
+										<p> Bilingual interpreter for all departments. Maintained employee’s computers. Set up database to digitize all paperwork to offsite servers. Process insurance applications, claims and cancellations. Designed monthly reports for shareholders. </p>
+									</div>
 
 
-<div id="mp3_player">
-  <div id="audio_box">  </div>
-  <canvas id="analyser"></canvas>
-</div>
 
-</body>
 
-</html>
+									<div id="mp3_player">
+										<div id="audio_box">  </div>
+										<canvas id="analyser"></canvas>
+									</div>
+
+								</body>
+
+								</html>

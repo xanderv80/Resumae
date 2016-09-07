@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+
 #sign1{
   background: lightblue;
   text-align: center;
@@ -13,6 +15,17 @@ body{
   padding: 20px;
   box-sizing: border-box;
 }
+
+
+h1{
+font-family: 'Bungee Shade', cursive; 
+}
+
+#name1{
+font-family: 'Bungee Shade', cursive; 
+font-size: 90px;
+}
+
 
 /*#mp3_player{
 
