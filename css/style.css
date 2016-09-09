@@ -1,7 +1,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
 =======
+=======
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+>>>>>>> parent of d2de9ea... starting jQueiry
 =======
 @import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
 >>>>>>> parent of d2de9ea... starting jQueiry
@@ -25,11 +29,14 @@ body{
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 
 #name1{
 font-family: 'Bungee Shade', cursive; 
 }
 
+=======
+>>>>>>> parent of d2de9ea... starting jQueiry
 nav{
 	width: 100%;
 	margin: 1% auto;
@@ -75,6 +82,7 @@ nav li:last-child a{
 }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 section{
@@ -182,5 +190,7 @@ canvas width:500px; height:30px; background:#002D3C; float:left;
 }
 */
 >>>>>>> parent of a862c42... Starting Layout
+=======
+>>>>>>> parent of d2de9ea... starting jQueiry
 =======
 >>>>>>> parent of d2de9ea... starting jQueiry
