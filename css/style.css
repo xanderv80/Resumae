@@ -1,35 +1,34 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+=======
+=======
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+>>>>>>> parent of d2de9ea... starting jQueiry
 
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+>>>>>>> parent of a862c42... Starting Layout
+
+#sign1{
+  background: lightblue;
+  text-align: center;
 }
 
 body{
-	background: #454545;
-	padding: 2%;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 22px;
-	color: #FAFAFA;
-	line-height: 26px;
-	text-align: justify;
+  background: powderblue;
+  text-align: center;
 }
 
-header{
-	text-align: center;
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-p{
-	text-indent: 5%;
-}
 
-h2{
-	text-align: center;
-	line-height: 125%;
+#name1{
+font-family: 'Bungee Shade', cursive; 
 }
-
-/*---Start Navagation---*/
 
 nav{
 	width: 100%;
@@ -53,7 +52,7 @@ nav li a {
 	padding: 1%;
 	text-align: center;
 	text-decoration: none;
-	width: 33.33%;
+	width: 16.65%;
 	transition: background 0.5s ease;
 }
 
@@ -66,8 +65,6 @@ nav li:last-child a{
 	border: none;
 }
 
-/*---End Navagation---*/
-
 .banner {
 	width: 100%;
 }
@@ -78,6 +75,8 @@ nav li:last-child a{
 }
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 section{
 	float: left;
 	width: 60%;
@@ -169,3 +168,19 @@ footer{
 }
 
 
+=======
+
+
+
+
+/*#mp3_player{
+
+width:500px; height:60px; background:#000; padding:5px; margin:50px auto; 
+div > audio  width:500px; background:#000; float:left;  
+canvas width:500px; height:30px; background:#002D3C; float:left; 
+
+}
+*/
+>>>>>>> parent of a862c42... Starting Layout
+=======
+>>>>>>> parent of d2de9ea... starting jQueiry
