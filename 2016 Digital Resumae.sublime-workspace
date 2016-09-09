@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
 				"bo",
 				"border"
 			],
@@ -47,6 +55,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2697,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2443,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 308,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -81,7 +113,11 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Xander/Documents/GitHub/Resumae"
+		"/C/Users/Xander/Documents/GitHub/Resumae",
+		"/C/Users/Xander/Documents/GitHub/Resumae/css",
+		"/C/Users/Xander/Documents/GitHub/Resumae/scripts",
+		"/C/Users/Xander/Documents/GitHub/Resumae/scripts/Intro to Resposive Web Design Download",
+		"/C/Users/Xander/Documents/GitHub/Resumae/scripts/Intro to Resposive Web Design Download/Intro to Resposive Web Design Download"
 	],
 	"file_history":
 	[
@@ -135,8 +171,95 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1735,
+								1735
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								689,
+								689
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -146,7 +269,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 51.0
 	},
 	"layout":
 	{
@@ -220,7 +343,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 397.0,
 	"status_bar_visible": true,
 	"template_settings":
