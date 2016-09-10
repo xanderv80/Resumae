@@ -145,18 +145,24 @@ footer{
 }
 
 .box {
-	height: 50px;
-	width: 33%;
-	text-align: center;
-	line-height: 50px;
-	border-radius: 3px;
-	margin-right: 2px;
-	color: #fff;
-	font-size: 24px;
-	font-weight: 300;
+	background: #737373;
+	border-right: 1px solid #454545;
+	color: #FAFAFA;
+	display: block;
 	float: left;
-	background-color: hsla(44, 85%, 58%, 1);
-	position: relative;
+	font-size: 120%;
+	font-weight: 600;
+	padding: 1%;
+	text-align: center;
+	text-decoration: none;
+	width: 33%;
+	transition: background 0.5s ease;
+
+}
+
+	.box:hover {
+	background: red;
+	color: blue;
 }
 
 .box:nth-child(1) {
