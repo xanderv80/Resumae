@@ -6,26 +6,40 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" language="javascript">
+		window.onload = draw;
+function draw (){
+	var canvas = document.getElementById("canvas1");
+	var ctx = canvas.getContext("2d");
+	ctx.fillStyle = "rgba(0,200,0,1)";
+	ctx.fillRect (36,10,22,22);
+    ctx.fillRect (36,50,22,22);
+}
+
+	</script>
+
 	<title>J Alex Villasenor</title>
 </head>
 
 <body>
 
-	<header id="hparent">
-		<h2 id="hchild"> Alex Villasenor </h2>
-	</header>
 
-<nav>
-	<div class="boxes">
-		<div class="box" id="about">About Me</div>
-		<div class="box" id="work">Work History</div>
-		<div class="box" id="refer">References</div>
-	</div>
-</nav>
+		<canvas id="canvas1" width="600" height="300">
 
-	<div class="banner">
-		<img src="img/theader.jpg">
-	</div>
+		</canvas> 
+
+
+
+	<nav>
+		<div class="boxes">
+			<div class="box" id="about">About Me</div>
+			<div class="box" id="work">Work History</div>
+			<div class="box" id="refer">References</div>
+		</div>
+	</nav>
+
+
 
 	<section>
 		<heading>
@@ -43,20 +57,20 @@
 
 			<marquee id="skilltree" direction="down" scrollamount="2"> 		
 				<ul>
-				<li class="skill">Fluent in Spanish</li>
-					<li class="skill">IT Troubleshooting</li>
-					<li class="skill">Hardware Repair</li>
-					<li class="skill">Network Manager</li>
-					<li class="skill">Microsoft Office</li>
-					<li class="skill">Google Docs</li>
-					<li class="skill">Website Design</li>
-					<li class="skill">E-Commerce</li>
-					<li class="skill">Videography</li>
-					<li class="skill">Graphic Artist</li>
-					<li class="skill">Computer Programer</li>
-					<li class="skill">Microboard Prototyping</li>
-					<li class="skill">3D Modeling</li>
-					<li class="skill">Game Designer</li>
+					<li id="s1" class="skill">Fluent in Spanish</li>
+					<li id="s2" class="skill">IT Troubleshooting</li>
+					<li id="s3" class="skill">Hardware Repair</li>
+					<li id="s4" class="skill">Network Manager</li>
+					<li id="s5" class="skill">Microsoft Office</li>
+					<li id="s6" class="skill">Google Docs</li>
+					<li id="s7" class="skill">Website Design</li>
+					<li id="s8" class="skill">E-Commerce</li>
+					<li id="s9" class="skill">Videography</li>
+					<li id="s10" class="skill">Graphic Artist</li>
+					<li id="s11" class="skill">Computer Programer</li>
+					<li id="s12" class="skill">Microboard Prototyping</li>
+					<li id="s13" class="skill">3D Modeling</li>
+					<li id="s14" class="skill">Game Designer</li>
 
 				</ul>
 			</marquee>
@@ -70,6 +84,6 @@
 
 		</footer>
 		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
-		<script type="text/javascript" src="js/scripts.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 	</html>

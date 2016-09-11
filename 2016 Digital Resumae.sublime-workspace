@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"hea",
+				"header	Tag"
+			],
+			[
 				"bo",
 				"border"
 			],
@@ -47,22 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 2697,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 2443,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -97,7 +85,10 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Xander/Source/Repos/Resumae"
+		"/C/Users/Xander/Source/Repos/Resumae",
+		"/C/Users/Xander/Source/Repos/Resumae/scripts",
+		"/C/Users/Xander/Source/Repos/Resumae/scripts/Intro to Resposive Web Design Download",
+		"/C/Users/Xander/Source/Repos/Resumae/scripts/Intro to Resposive Web Design Download/Intro to Resposive Web Design Download"
 	],
 	"file_history":
 	[
@@ -149,66 +140,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2697,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2443,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1395.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -218,7 +151,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 40.0
 	},
 	"layout":
 	{
