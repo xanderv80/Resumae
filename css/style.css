@@ -5,6 +5,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css);
 
 
+html, body, .container-fluid {height: 100%;}
 
 
 #backwall{
@@ -19,8 +20,6 @@
 	border-radius: 25px;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 80%;
-9-
-
 }
 
 #details{
