@@ -6,6 +6,30 @@ $(function(){
 });
 
 
+$(function() {
+	for (var i=0; i<30; i++) {
+		var html = '<p>' + i + ' ' + lorem + '</p>';
+		$('#emulated').append(html);
+		$('#native').append(html);
+	}
+	$('#emulated').bind('mousewheel', function(event) {
+		event.preventDefault();
+		var scrollTop = this.scrollTop;
+		this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * -1));
+          //console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
+      });
+});
+
+
+
+$('#test2')
+.mousewheel(function(event, delta) {
+	loghandle(event, delta);
+               return false; // prevent default
+  });
+
+
+/*
 
 
 $(".pointer").hover(
@@ -32,3 +56,5 @@ $(function(){
 		$(target).collapse(option);
 	})
 });
+
+*/
