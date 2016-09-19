@@ -12,14 +12,11 @@
 
 <body>
 
-	<div class="contaier-fluid col-lg-12" style="background-color: red">
-		<p>Desktop View</p>
-
-	</div>
-
 	<div id="backwall" class="container-fluid"> 
 
+	<canvas id="canvas">
 
+		</canvas>
 
 		<div id="info" class="contaier-fluid col-lg-10">
 			<ul class="nav nav-pills">
@@ -65,7 +62,7 @@
 		<div id="perks" style="text-align: center; align: center" class="container col-lg-2">
 			<h3 align="center">Skills</h3>
 
-			<marquee id="skilltree" direction="down" scrollamount="2" onMouseOver="this.stop()" onMouseOut="this.start()"> 	
+			<marquee class="skilltree" direction="down" scrollamount="2" onMouseOver="this.stop()" onMouseOut="this.start()"> 	
 
 				<div>
 					<h4><a href="#s01" data-toggle="collapse" style="text-decoration: none" class="skill">Fluent in Spanish</a></h4>
