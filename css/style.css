@@ -7,8 +7,20 @@
 
 html, body, .container-fluid {
 	height: 100%;
-	cursor: url(img/cursor_hand.ico), pointer;
+	overflow: hidden;
+
 }
+
+a {
+	text-decoration: none !important;
+}
+
+a:hover, a:visited, a:link, a:active, a:focus, a:click
+{
+	text-decoration: none !important;
+}
+
+
 
 #canvas{
 	border: #666 10px solid;
@@ -16,22 +28,29 @@ html, body, .container-fluid {
 	height: 200px;
 	margin: 0px auto;
 	overflow: hidden;
-	background: 
+	background-color: black; 
+
 }
 
 
 #backwall{
-	background-color: #3366ff !important;
+	background-color: #3366ff;
 }
 
 
 #info {
-	padding: 2% !important;
-	margin: 1% 0 !important;
+	padding: 2%;
+	margin: 1% 0;
 	background-color: #6699ff;
 	border-radius: 25px;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 80%;
+	float: left;
+	padding-right: 1% !important;
+	margin-right: 0 !important;
+	background-clip: padding-box;
+	border: 5px solid transparent;
+
 }
 
 #details{
@@ -47,12 +66,22 @@ html, body, .container-fluid {
 #perks {
 
 	border-radius: 25px;
-	background-color: #6699ff !important;
+	background-color: #6699ff;
 	overflow: hidden;
+	float: right; 
+	text-align: center; 
+	align: center
+	padding: 2%;
+	margin: 1% 0;
+	padding-left: 1% !important;
+	margin-left: 0 !important;
+	background-clip: padding-box;
+	border: 5px solid transparent;
 
 }
 
-.skilltree{
+#skilltree{
+
 	background-color: #99ccff !important;
 	padding: 2% !important;
 	margin: 1% 0 !important;
@@ -61,18 +90,28 @@ html, body, .container-fluid {
 	text-align: center !important;
 	align-items: center !important;
 	overflow: hidden;
+	position:relative;
 }
-
-
-
 
 .skill{
-	background-color: #ccddff !important;
+	background-color: #ccddff;
 	border-radius: 25px;
+	padding: 1%;
+	margin: 2% 1;
 	font-family: 'Press Start 2P', cursive;
-	padding: 2% !important;
-	margin: 1% 0 !important;
 	font-size: 70%;
+	overflow: hidden;
+}
+
+.skilldetails{
+	background-color: #ccddff;
+	border-radius: 25px;
+	padding: 1%;
+	overflow: hidden;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 50%;
 
 }
+
+
 
