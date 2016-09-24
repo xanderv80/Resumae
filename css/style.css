@@ -45,9 +45,6 @@ background: url("file:///C:/Users/Xander/Source/Repos/Resumae/img/MMTile.png");
 	background-color: black; 
 }
 
-#ref1, #ref2 {
-
-}
 
 #info {
 	padding: 2%;
@@ -97,13 +94,8 @@ h6 {
 
 }
 
-.lightblue{
-	background-color: #9999cc !important;
-	padding: 2% !important;
 
-}
-
-#skilltree{
+#perktree{
 
 	background-color: #000033 !important;
 	padding: 2% !important;
@@ -116,18 +108,17 @@ h6 {
 	position:relative;
 }
 
-.skill{
-	background-color: #003366;
-	border-radius: 25px;
+.perktitle{
+	color: #9999cc;
 	padding: 1%;
 	margin: 2% 1;
 	font-family: 'Press Start 2P', cursive;
-	font-size: 70%;
-	overflow: hidden;
+	font-size: 130%;
 }
 
-.skilldetails{
+.perkdetails{
 	background-color: #003366;
+	color: #9999cc;
 	border-radius: 25px;
 	padding: 1%;
 	overflow: hidden;
