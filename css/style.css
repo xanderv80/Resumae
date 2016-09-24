@@ -4,12 +4,16 @@
 
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css);
 
-
-
 body {
 	margin: 0px auto;
 	background: #000;
+}
 
+a {
+	text-decoration: none !important;
+}
+a:hover, a:visited, a:link, a:active, a:focus, a:click {
+	text-decoration: none !important;
 }
 
 #backwall{
@@ -21,28 +25,16 @@ body {
 	width: 100%;
 	height: 975px;
 	margin: 0px auto;
-	background: url("file:///C:/Users/Xander/Source/Repos/Resumae/img/MMTile.png");
+/* Desktop absolute location	
+background: url("file:///C:/Users/Xander/Source/Repos/Resumae/img/MMTile.png");
+*/
+	background: url("C:/Users/Xander/Documents/GitHub/Resumae/img/MMTile.png");
 	animation: megaman linear 12s infinite;
 }
 
 @keyframes megaman {
 	from { background-position: 0px; }
 	to { background-position: 255px; }
-}
-
-
-
-a {
-	text-decoration: none !important;
-}
-
-a:hover, a:visited, a:link, a:active, a:focus, a:click
-{
-	text-decoration: none !important;
-}
-
-#ref1, #ref2 {
-
 }
 
 #canvas{
@@ -53,13 +45,14 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click
 	background-color: black; 
 }
 
+#ref1, #ref2 {
 
-
+}
 
 #info {
 	padding: 2%;
 	margin: 1% 0;
-	background-color: #6699ff;
+	background-color: #000033;
 	border-radius: 25px;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 80%;
@@ -72,18 +65,25 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click
 }
 
 #details{
-	background-color: #99ccff;
+	background-color: #003366;
 	border-radius: 25px;
+}
 
+.infotext{
+	color:#9999cc;
+	padding: 2%;
+	margin: 1% 0;
+}
 
-
+h6 {
+	font-size: 3px !important;
 }
 
 
 #perks {
 
 	border-radius: 25px;
-	background-color: #6699ff;
+	background-color: #000033;
 	overflow: hidden;
 	float: right; 
 	text-align: center; 
@@ -93,19 +93,19 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click
 	margin-right: 45px;
 	background-clip: padding-box;
 	border: 5px solid transparent;
-	max-height: 600px;
+
 
 }
 
 .lightblue{
-	background-color: #99ccff !important;
+	background-color: #9999cc !important;
 	padding: 2% !important;
 
 }
 
 #skilltree{
 
-	background-color: #99ccff !important;
+	background-color: #000033 !important;
 	padding: 2% !important;
 	margin: 1% 0 !important;
 	border-radius: 25px;
@@ -117,7 +117,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click
 }
 
 .skill{
-	background-color: #ccddff;
+	background-color: #003366;
 	border-radius: 25px;
 	padding: 1%;
 	margin: 2% 1;
@@ -127,7 +127,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click
 }
 
 .skilldetails{
-	background-color: #ccddff;
+	background-color: #003366;
 	border-radius: 25px;
 	padding: 1%;
 	overflow: hidden;

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"animation-direction"
+			],
+			[
+				"ani",
+				"animation-delay"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
 				"ba",
 				"background-color"
 			],
@@ -26,10 +42,6 @@
 			[
 				"fun",
 				"function"
-			],
-			[
-				"p",
-				"padding-bottom"
 			],
 			[
 				"bo",
@@ -72,29 +84,13 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"utf-8\">\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n	<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n	<title>Alex Villasenor</title>\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n</head>\n\n<body>\n\n	<div id=\"backwall\"> \n		<div id=\"tile\">\n\n			<canvas id=\"canvas\">\n\n			</canvas>\n\n\n			<div id=\"info\" class=\"contaier-fluid col-sm-8 col-md-8 col-lg-8\" style=\"height: 100%\">\n				<ul class=\"nav nav-pills\">\n\n					<li class=\"nav-item active\">\n						<a href=\"#about\" class=\"nav-link\" role=\"tab\" data-toggle=\"tab\">About Me</a>\n					</li>\n\n					<li class=\"nav-item\">\n						<a href=\"#work\" class=\"nav-link\" role=\"tab\" data-toggle=\"tab\">Work History</a>\n					</li>\n\n					<li class=\"nav-item\">\n						<a href=\"#ref\" class=\"nav-link\" role=\"tab\" data-toggle=\"tab\">References</a>\n					</li>\n\n					<li class=\"nav-item\">\n						<a href=\"#contact\" class=\"nav-link\" role=\"tab\" data-toggle=\"tab\">Contact</a>\n					</li>\n				</ul>\n\n\n				<div id=\"details\" class=\"tab-content\">\n					<div role=\"tabpanel\" id=\"about\" class=\"tab-pane fade in active\">\n						I want to be a programer, please hire me ^_^\n						Here is my story\n						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are gling to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.\n\n					</div> <!-- End of About Me tab -->\n\n					<div role=\"tabpanel\" id=\"work\" class=\"tab-pane fade\"> \n						<h5>ArtsTech</h5> <h6>Director of Digital Literacy</h6>\n						<h6>October  2010 - PRESENT</h6>\n						<p>Repaired and refurbished desktops, laptops, tablets and phones for clients. Designed, built and maintained company website, multiple computer labs, file network, security camera system, e-mail server, and YouTube channel. Taught digital literacy classes to all age groups. Managed high school interns and trained them with digital skills.</p> <br>\n\n\n						<h5>Scuola Vita Nuova</h5> <h6>Information Tech Director </h6>\n						<h6>August 2005 - October 2010</h6>\n						<p>Maintained students computer lab. Taught computer classes to middle school students. Designed databases for state and federal reports on student meals and attendance. Set up teachers digital gradebook and lesson plan software. Assisted Missouri Education with the DESE database that the state uses to collect data from all charter schools.</p><br>  \n\n						<h5>MPP Inc</h5> <h6>Information Tech Director</h6>\n						<h6>February 2001 - August 2005</h6> \n						<p>Bilingual interpreter for all departments. Maintained employee’s computers. Set up database to digitize all paperwork to offsite servers. Process insurance applications, claims and cancellations. Designed monthly reports for shareholders.</p> \n\n\n					</div> <!-- End of Work History tab -->\n\n\n\n					<div role=\"tabpanel\" id=\"ref\" class=\"tab-pane fade lightblue\"> \n\n						<h3 style=\"text-align: center\">References</h3>\n\n						<div id=\"ref1\" class=\"container col-sm-6 col-md-6 col-lg-6 lightblue\">\n							<h4 class=\"lightblue\">ArtsTech</h4>\n							<p class=\"lightblue\">www.ArtsTech-KC.org<br>\n								816-461-0201<br>\n								1522 Holmes St<br>\n								Kansas City, MO 64108<br>\n								Supervisor: David Sullivan<br>\n								davidsullivan@artstech-kc.org</p>\n							</div>\n							<div id=\"ref2\" class=\"container col-sm-6 col-md-6 col-lg-6 lightblue\">\n								<h4 class=\"lightblue\">Scuola Vita Nuova</h4>\n								<p class=\"lightblue\">www.SVNCharter.org<br>\n									816-231-5788<br>\n									535 Garfield Avenue <br>\n									Kansas City, MO 64108<br>\n									Supervisor: Nicole King\n								</p>\n							</div>\n							<div id=\"ref1\" class=\"container col-sm-6 col-md-6 col-lg-6 lightblue\">\n								<h4 class=\"lightblue\">MPP Inc</h4>\n								<p class=\"lightblue\">www.MPP.com<br>\n									855-346-0558<br>\n									8500 Shawnee Mission Pkwy<br>\n									Merriam, KS 66202<br>\n									Supervisor: Tamma Scott\n								</p>\n							</div>\n\n\n						</div> <!-- End of Reference tab -->\n\n						<div role=\"tabpanel\" id=\"contact\" class=\"tab-pane fade\" style=\"text-align: center\"> \n							<h5>Alex Villasenor</h5><br>\n							<h6>jalexvillasenor@gmail.com</h6><br>\n							<h6>(816)668-7864</h6>\n							<h6>823 Walnut St</h6>\n							<h6>Apt 402</h6><br>\n							<h5>GitHub</h5>\n							<h5>YouTube</h5>\n							<h5>Linkend</h5>\n\n\n\n						</div> <!-- End of Contact tab -->\n\n\n					</div> <!-- End of Tab Content -->\n\n				</div> <!-- End of 1st Column -->\n\n\n\n				<div id=\"perks\" class=\"container-fluid col-sm-3 col-md-3 col-lg-3\">\n					<h3 align=\"center\">Skills</h3>\n\n					<div id=\"skilltree\" class=\"container-fluid\"> 	\n\n						<div>\n							\n\n							<div id=\"s01\" class=\"skilldetails\">	\n								<h4 style=\"color: blue\">Fluent in Spanish</h4>\n\n								<div class=\"container col-lg-4\"><img src=\"./img/SpanishSpeaker.png\" alt=\"Spanish Speaker\" height=\"110\" width=\"110\" margin=\"0\"></div> \n\n								<div class=\"container col-lg-8\"><h6>Can speak and write in Spanish</h6></div>\n\n							</div>\n\n\n						</div>\n\n\n\n\n\n						<br>\n\n						<div>\n							<a href=\"#s02\" class=\"skill\">IT Troubleshooting</a>\n							<div id=\"s02\" class=\"skilldetails\"> 						\n								<img src=\"./img/Troubleshoot.png\" alt=\"IT Troubleshooting\" height=\"100\" width=\"90\"> \n								<p>IT Support</p> \n							</div>\n						</div><br>\n\n						<div>\n							<a href=\"#s03\" class=\"skill\">Hardware Repair</a>						\n							<div id=\"s03\" class=\"skilldetails\">\n								<img src=\"./img/HardwareRepair.png\" alt=\"HardwareRepair\" height=\"100\" width=\"130\">\n								<p>Fix Technology</p></div>\n							</div><br>\n\n							<div>\n								<a href=\"#s04\" class=\"skill\">Network Manager</a>\n								<div id=\"s04\" class=\"skilldetails\">\n									<img src=\"./img/Network.png\" alt=\"IT Troubleshooting\" height=\"100\" width=\"140\"> \n									<p>Network Manager</p></div>\n								</div><br>\n\n								<div>\n									<a href=\"#s05\" class=\"skill\">Microsoft Office</a>\n									<div id=\"s05\" class=\"skilldetails\">\n										<img src=\"./img/Office.png\" alt=\"IT Troubleshooting\" height=\"100\" width=\"120\">\n										<p>Microsoft Office</p>\n									</div>\n								</div><br>\n\n								<div>\n									<a href=\"#s06\" class=\"skill\">Website Design</a>\n									<div id=\"s06\" class=\"skilldetails\">\n										<img src=\"./img/Design.png\" alt=\"IT Troubleshooting\" height=\"90\" width=\"110\">\n										<p>Website Design</p>\n									</div>\n								</div><br>\n\n								<div>\n									<a href=\"#s07\" class=\"skill\">E-Commerce</a>\n									<div id=\"s07\" class=\"skilldetails\">\n										<img src=\"./img/Commerce.png\" alt=\"IT Troubleshooting\" height=\"90\" width=\"100\"> \n										<p>E-Commerce</p>\n									</div>\n								</div><br>\n\n								<div>\n									<a href=\"#s08\" class=\"skill\">Videography</a>\n									<div id=\"s08\" class=\"skilldetails\" > Videography</div>\n								</div><br>\n\n								<div>\n									<a href=\"#s09\" class=\"skill\">Graphic Artist</a>\n									<div id=\"s09\" class=\"skilldetails\" > Graphic Artist </div>\n								</div><br>\n\n								<div>\n									<a href=\"#s10\" class=\"skill\">Computer Programer</a>\n									<div id=\"s10\" class=\"skilldetails\"> Computer Programer </div>\n								</div><br>\n\n								<div>\n									<a href=\"#s11\" class=\"skill\">Microboard Prototyping</a>\n									<div id=\"s11\" class=\"skilldetails\"> <p>Microboard Prototyping</p></div>\n								</div><br>\n\n								<div>\n									<a href=\"#s12\" class=\"skill\">3D Modeling</a>\n									<div id=\"s12\" class=\"skilldetails\"> <p>3D Modeling</p></div>\n								</div><br>\n\n								<div>\n									<a href=\"#s13\" class=\"skill\">Game Designer</a>\n									<div id=\"s13\" class=\"skilldetails\"> <p>Unity, Unreal Engine</p> </div>\n								</div><br>\n\n							</div>\n						</div>\n\n\n					</div> <!-- End of Tile -->\n				</div> <!-- End of Backwall -->\n\n\n				<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js\"></script>\n				<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n				<script type=\"text/javascript\" src=\"js/main.js\"></script>\n\n\n			</body>\n			</html>",
 			"file": "index.html",
+			"file_size": 8906,
+			"file_write_time": 131191738448253793,
 			"settings":
 			{
-				"buffer_size": 5985,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/main.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);\n\n@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);\n\n@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css);\n\n\nhtml, body, .container-fluid {\n	height: 100%;\n}\n\nbody {\n	margin: 0px;\n	background: #000;\n\n}\n\n#backwall{\n	width: 100%;\n	height: 255px;\n	background-image: url(\"MMTile.png\");\n\n	background-color: #000;\n}\n\n\n\n\na {\n	text-decoration: none !important;\n}\n\na:hover, a:visited, a:link, a:active, a:focus, a:click\n{\n	text-decoration: none !important;\n}\n\n#ref1, #ref2 {\n\n}\n\n#canvas{\n	border: #666 10px solid;\n	width: 100%;\n	height: 200px;\n	margin: 0px auto;\n	overflow: hidden;\n	background-color: black; \n\n}\n\n\n\n\n#info {\n	padding: 2%;\n	margin: 1% 0;\n	background-color: #6699ff;\n	border-radius: 25px;\n	font-family: 'Press Start 2P', cursive;\n	font-size: 80%;\n	float: left;\n	padding-right: 1% !important;\n	margin-right: 0 !important;\n	background-clip: padding-box;\n	border: 5px solid transparent;\n\n}\n\n#details{\n	background-color: #99ccff;\n	border-radius: 25px;\n\n\n\n}\n\n\n#perks {\n\n	border-radius: 25px;\n	background-color: #6699ff;\n	overflow: hidden;\n	float: right; \n	text-align: center; \n	align: center\n	padding: 2%;\n	margin: 1% 0;\n	padding-left: 1% !important;\n	margin-left: 0 !important;\n	background-clip: padding-box;\n	border: 5px solid transparent;\n\n}\n\n.lightblue{\n	background-color: #99ccff !important;\n	padding: 2% !important;\n\n}\n\n#skilltree{\n\n	background-color: #99ccff !important;\n	padding: 2% !important;\n	margin: 1% 0 !important;\n	border-radius: 25px;\n	align-content: center !important;\n	text-align: center !important;\n	align-items: center !important;\n	overflow: hidden;\n	position:relative;\n}\n\n.skill{\n	background-color: #ccddff;\n	border-radius: 25px;\n	padding: 1%;\n	margin: 2% 1;\n	font-family: 'Press Start 2P', cursive;\n	font-size: 70%;\n	overflow: hidden;\n}\n\n.skilldetails{\n	background-color: #ccddff;\n	border-radius: 25px;\n	padding: 1%;\n	overflow: hidden;\n	font-family: 'Press Start 2P', cursive;\n	font-size: 50%;\n\n}\n\n\n\n",
-			"file": "css/style.css",
-			"file_size": 2233,
-			"file_write_time": 131191089486493594,
-			"settings":
-			{
-				"buffer_size": 2059,
+				"buffer_size": 8685,
 				"line_ending": "Windows"
 			}
 		}
@@ -199,7 +195,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -208,15 +204,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5985,
+						"buffer_size": 8685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								440,
-								440
+								5171,
+								5171
 							]
 						],
 						"settings":
@@ -225,64 +221,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2059,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								336,
-								336
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 279.0,
+						"translation.y": 4028.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
