@@ -26,11 +26,12 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	height: 975px;
 	margin: 0px auto;
 	
+	/* Desktop absolute location
 	background: url("file:///C:/Users/Xander/Source/Repos/Resumae/img/MMTile.png");
-
-/* Desktop absolute location
-	background: url("C:/Users/Xander/Documents/GitHub/Resumae/img/MMTile.png");
 	*/
+
+	background: url("C:/Users/Xander/Documents/GitHub/Resumae/img/MMTile.png");
+
 	animation: megaman linear 12s infinite;
 }
 
