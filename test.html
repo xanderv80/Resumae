@@ -4,59 +4,286 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Test HTML</title>
+	<title>!TEST!</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
 
-	<style type="text/css">
+<body>
 
-		body{ margin: 0px auto; 
-			background: #000; }
+	<div id="backwall"> 
+		<div id="tile">
 
-			#tile{
-				width: 100%;
-				height: 975px;
-				margin: 0px auto;
-				background: url("MMTile.png");
-				animation: megaman linear 12s infinite;
+			<canvas id="canvas">
 
-			}
-
-			#backwall{
-				width: 100%;
-				height: 920px;
-				margin: 0px auto;
-			}
-
-			@keyframes megaman {
-				from { background-position: 0; }
-				to { background-position: 255px; }
-			}
-
-			#canvas{
-
-				width: 100%;
-				height: 200px;
-				margin: 0px auto;
-				background-color: black; 
-				background-clip: padding-box;
-			}
-		</style>
+			</canvas>
 
 
+			<div id="info" class="contaier-fluid col-sm-8 col-md-8 col-lg-8" style="height: 100%">
+				<ul class="nav nav-pills">
 
-	</head>
+					<li class="nav-item active">
+						<a href="#about" class="nav-link" role="tab" data-toggle="tab"><h6>About Me</h6></a>
+					</li>
 
-	<body>
-		<div id="backwall">
+					<li class="nav-item">
+						<a href="#work" class="nav-link" role="tab" data-toggle="tab">Work History</a>
+					</li>
 
-			<div id="tile"> 
+					<li class="nav-item">
+						<a href="#ref" class="nav-link" role="tab" data-toggle="tab">References</a>
+					</li>
 
-				<canvas id="canvas">
-					canvas
-				</canvas>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link" role="tab" data-toggle="tab">Contact</a>
+					</li>
+				</ul>
 
-			</div>
-		</div>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
-	</html>
+
+				<div id="details" class="tab-content">
+
+					<div role="tabpanel" id="about" class="tab-pane fade in active infotext">
+						<img src="./img/Nerdy.png" alt="Grapic Artist" style="float: left; margin: 0;">	
+						I want to be a programer, please hire me ^_^
+						Here is my story
+						My name is Alex Villasenor.
+						I've wanted to be a web developer for years but it wasn't until I visited The Nerdery that I actually start working towards that goal. I fell in love with the atmosphere there, it was a surreal feeling as though I was on a movie set and this was only what people imagine a software company would look like but not really believed could exist in real life, surely things have been exaggerated for entertainment purposes. At yet there I was dizzy with the idea of being able to work at a place like this was like winning the lottery to a ticket you didn't even know you had.
+
+						I am applying for the front-end developer position with the intention of working towards the back-end development.
+						The main goal in my life is my work, 
+
+					</div> <!-- End of About Me tab -->
+
+					<div role="tabpanel" id="work" class="tab-pane fade"> 
+						<h5>ArtsTech</h5> <h6>Director of Digital Literacy</h6>
+						<h6>October  2010 - PRESENT</h6>
+						<p>Repaired and refurbished desktops, laptops, tablets and phones for clients. Designed, built and maintained company website, multiple computer labs, file network, security camera system, e-mail server, and YouTube channel. Taught digital literacy classes to all age groups. Managed high school interns and trained them with digital skills.</p> <br>
+
+
+						<h5>Scuola Vita Nuova</h5> <h6>Information Tech Director </h6>
+						<h6>August 2005 - October 2010</h6>
+						<p>Maintained students computer lab. Taught computer classes to middle school students. Designed databases for state and federal reports on student meals and attendance. Set up teachers digital gradebook and lesson plan software. Assisted Missouri Education with the DESE database that the state uses to collect data from all charter schools.</p><br>  
+
+						<h5>MPP Inc</h5> <h6>Information Tech Director</h6>
+						<h6>February 2001 - August 2005</h6> 
+						<p>Bilingual interpreter for all departments. Maintained employee’s computers. Set up database to digitize all paperwork to offsite servers. Process insurance applications, claims and cancellations. Designed monthly reports for shareholders.</p> 
+
+
+					</div> <!-- End of Work History tab -->
+
+
+
+					<div role="tabpanel" id="ref" class="tab-pane fade lightblue"> 
+
+						<h3 style="text-align: center">References</h3>
+
+						<div id="ref1" class="container col-sm-6 col-md-6 col-lg-6 lightblue">
+							<h4 class="lightblue">ArtsTech</h4>
+							<p class="lightblue">www.ArtsTech-KC.org<br>
+								816-461-0201<br>
+								1522 Holmes St<br>
+								Kansas City, MO 64108<br>
+								Supervisor: David Sullivan<br>
+								davidsullivan@artstech-kc.org</p>
+							</div>
+							<div id="ref2" class="container col-sm-6 col-md-6 col-lg-6 lightblue">
+								<h4 class="lightblue">Scuola Vita Nuova</h4>
+								<p class="lightblue">www.SVNCharter.org<br>
+									816-231-5788<br>
+									535 Garfield Avenue <br>
+									Kansas City, MO 64108<br>
+									Supervisor: Nicole King
+								</p>
+							</div>
+							<div id="ref1" class="container col-sm-6 col-md-6 col-lg-6 lightblue">
+								<h4 class="lightblue">MPP Inc</h4>
+								<p class="lightblue">www.MPP.com<br>
+									855-346-0558<br>
+									8500 Shawnee Mission Pkwy<br>
+									Merriam, KS 66202<br>
+									Supervisor: Tamma Scott
+								</p>
+							</div>
+
+
+						</div> <!-- End of Reference tab -->
+
+						<div role="tabpanel" id="contact" class="tab-pane fade" style="text-align: center"> 
+							<h5>Alex Villasenor</h5><br>
+							<h6>jalexvillasenor@gmail.com</h6><br>
+							<h6>(816)668-7864</h6>
+							<h6>823 Walnut St</h6>
+							<h6>Apt 402</h6><br>
+							<h5>GitHub</h5>
+							<h5>YouTube</h5>
+							<h5>Linkend</h5>
+
+
+
+						</div> <!-- End of Contact tab -->
+
+
+					</div> <!-- End of Tab Content -->
+
+				</div> <!-- End of 1st Column -->
+
+
+
+				<div id="perks" class="container-fluid col-sm-3 col-md-3 col-lg-3">
+					<div id="perkheader">Skills</div>
+
+					<div id="perktree" class="container-fluid"> <span> <!--The outter most div that other divs will scroll in -->	
+
+						<div id=perk1 class="perkbox container-fluid"> <!-- Perkbox -->
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Spanish -->
+								<img src="./img/SpanishSpeaker.png" alt="Spanish Speaker">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Fluent in Spanish</div>
+								<div class="container-fluid">Can speak and write in Spanish.</div>
+							</div>
+						</div> <!-- End of Perkbox -->
+
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon IT Troubleshoot-->
+								<img src="./img/Repair.png" alt="IT Troubleshooting">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">IT Troubleshooting</div>
+								<div class="container-fluid">Work 6 years refurbishing and fixing computers.</div>
+							</div>
+						</div>
+
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Hardware Repair-->
+								<img src="./img/Hardware.png" alt="Hardware Repair">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Hardware Repair</div>
+								<div class="container-fluid">Work 6 years refurbishing and fixing computers.</div>
+							</div>
+						</div>
+
+
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Network Manager-->
+								<img src="./img/Network.png" alt="Network mananger">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Network Manager</div>
+								<div class="container-fluid">Windows Server 2012</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Office Software-->
+								<img src="./img/Office.png" alt="IT Troubleshooting">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Office Software</div>
+								<div class="container-fluid">Microsoft Office, Google Docs</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Website Design-->
+								<img src="./img/Design.png" alt="Website Design">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Website Design</div>
+								<div class="container-fluid">A lot of experience with Wordpress</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon E-Commerce-->
+								<img src="./img/Commerce.png" alt="IT Troubleshooting">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails-->
+								<div class="perktitle container-fluid">E-Commerce</div>
+								<div class="container-fluid">Tickets for events and small bussines</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Videography-->
+								<img src="./img/Videography.png" alt="Videography">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Videography</div>
+								<div class="container-fluid">Cyberlink, Premiere, After Effects</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Artist-->
+								<img src="./img/Artist.png" alt="Grapic Artist">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Grapic Artist</div>
+								<div class="container-fluid">Photoshop, SketchBook, Illustrator</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Programer-->
+								<img src="./img/Hacker.png" alt="Software Developer">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Software Developer</div>
+								<div class="container-fluid">Github, C#, HTML, CSS, Javascript</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Microboard Prototyping-->
+								<img src="./img/Prototype.png" alt="Microboard Prototype">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Microboard Prototyping</div>
+								<div class="container-fluid">Arduino, Rassberry Pi</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon 3D Modeling-->
+								<img src="./img/3DSculpt.png" alt="3D Modeling">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">3D Modeling</div>
+								<div class="container-fluid">Z-Brush, Blender, Sculptris</div>
+							</div>
+						</div>
+						
+						<div class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Game Designer-->
+								<img src="./img/GameDesign.png" alt="Game Designer">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Game Designer</div>
+								<div class="container-fluid">Unity, Unreal Engine, Scratch</div>
+							</div>
+						</div>
+
+						<div id="perk2" class="perkbox container-fluid">
+							<div class="perkicon container col-sm-4 col-md-4 col-lg-4"> <!-- Perkicon Instructor-->
+								<img src="./img/Instructor.png" alt="Instructor">
+							</div>
+							<div class="container col-sm-8 col-md-8 col-lg-8"> <!-- Perkdetails -->
+								<div class="perktitle container-fluid">Instructor</div>
+								<div class="container-fluid">KC Tech School</div>
+							</div>
+						</div><
+						
+
+					</span></div> <!-- End of PerkTree -->
+				</div> <!-- End of Backwall -->
+
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+				<script type="text/javascript" src="js/main.js"></script>
+
+
+			</body>
+			</html>
