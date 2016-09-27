@@ -4,10 +4,14 @@
 
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css);
 
+html, body {
+	height: 100%;
+}
+
 body {
 	margin: 0px auto;
 	background: #000;
-	overflow: hidden;
+
 }
 
 a {
@@ -19,12 +23,12 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 
 #backwall{
 	width: 100%;
-	height: 920px;
+	height: 100%;
 	margin: 0px auto;
 }
 #tile{
 	width: 100%;
-	height: 1600px;
+	height: 100%;
 	margin: 0px auto;
 	background: url("C:/Users/Xander/Documents/GitHub/Resumae/img/MMTile.png");
 	animation: megaman linear 12s infinite;
@@ -37,7 +41,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 
 #canvas{
 	width: 100%;
-	height: 200px;
+	height: 25%;
 	margin: 0px auto;
 	background-color: black; 
 }
@@ -76,13 +80,14 @@ h6 {
 #perks {
 	border-radius: 25px;
 	background-color: #000033;
-	overflow: hidden;
+	height: 60%;
 	float: right; 
 	padding: 0; 
 	margin: 1% 0;
 	margin-right: 2%; 
-	max-height: 600px;
 	position: relative;
+
+
 }
 
 #perktree{
@@ -90,15 +95,22 @@ h6 {
 	margin: 0px auto;
 	border-radius: 25px;
 	align-content: center;
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
+
 	height: 100%;
 	display: block;
 
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 #perktree span{
 	display: inline-block;
-	animation: perkscroll 50s linear 0s infinite;
+		animation: perkscroll 50s linear 0s infinite;
+	/*animation: perkscroll 50s linear 0s infinite;*/
 }
 
 #perktree span:hover{
@@ -106,9 +118,10 @@ h6 {
 }
 
 @keyframes perkscroll {
-	from { transform: translateY(-1600px);}
-	to { transform: translateY(600px);}
+	from { transform: translateY(30%);}
+	to { transform: translateY(-100%);}
 }
+
 
 
 .perkbox{
@@ -123,7 +136,7 @@ h6 {
 	width: 100%;
 	margin: 0px auto;
 	display: inline-block;
-	position: relative;
+
 }
 
 
