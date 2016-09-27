@@ -48,22 +48,23 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 
 
 #info {
-	padding: 2%;
+	padding: 1%;
 	margin: 1% 0;
 	background-color: #000033;
 	border-radius: 25px;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 80%;
 	float: left;
-	margin-left: 45px; 
-	background-clip: padding-box;
+	margin-left: 25px: 
 	border: 5px solid transparent;
-	max-height: 600px;
+	height: 60%;
 }
 
 #details{
 	background-color: #003366;
 	border-radius: 25px;
+	height: 90%;
+	
 }
 
 .infotext{
@@ -82,10 +83,10 @@ h6 {
 	background-color: #000033;
 	height: 60%;
 	float: right; 
-	padding: 0; 
+	padding: 1%; 
 	margin: 1% 0;
-	margin-right: 2%; 
 	position: relative;
+	margin-right: 25px: 
 
 
 }
@@ -97,19 +98,19 @@ h6 {
 	align-content: center;
 	overflow-x: hidden;
 	overflow-y: scroll;
-
-	height: 100%;
+padding: 0;
+	height: 90%;
 	display: block;
 
 }
 
 ::-webkit-scrollbar { 
-    display: none; 
+	display: none; 
 }
 
 #perktree span{
 	display: inline-block;
-		animation: perkscroll 50s linear 0s infinite;
+	animation: perkscroll 50s linear 0s infinite;
 	/*animation: perkscroll 50s linear 0s infinite;*/
 }
 
@@ -125,7 +126,6 @@ h6 {
 
 
 .perkbox{
-
 	background-color: #003366;
 	color: #9999cc;
 	padding: 1%;
@@ -136,9 +136,7 @@ h6 {
 	width: 100%;
 	margin: 0px auto;
 	display: inline-block;
-
 }
-
 
 
 
@@ -152,17 +150,19 @@ h6 {
 }
 
 .perktitle{
-	color: #9999cc;
-	padding: 1%;
+	color: #000099;
+	padding: 0%;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 120%;
-	margin-bottom: 3%;
-	overflow: hidden; 
+	margin-bottom: 2%;
+	text-align: center;
+	margin: 1%;
 }
 
 .perkicon {
 	margin: 1px auto;
 	padding: 0%;
+	float: left;
 }
 
 
