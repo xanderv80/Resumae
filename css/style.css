@@ -92,21 +92,27 @@ h6 {
 	align-content: center;
 	overflow: hidden;
 	height: 100%;
+	display: block;
+
 }
 
-#perktree{
-	border-radius: 25px;
+#perktree span{
 	display: inline-block;
-
-/*
-animation: perkscroll 3s linear 0s infinite normal forwards; /* Animation: Name * Duration * Timing-Function Delay * Iteration * Direction Fill-Mode Play-State*/
+	animation: perkscroll 50s linear 0s infinite;
 }
 
+#perktree span:hover{
+	animation-play-state: paused;
+}
+
+@keyframes perkscroll {
+	from { transform: translateY(-1600px);}
+	to { transform: translateY(600px);}
+}
 
 
 .perkbox{
-	animation: perkscrolla 10s linear 0s 1,
-	           perkscrollb 25s linear 8s infinite;
+
 	background-color: #003366;
 	color: #9999cc;
 	padding: 1%;
@@ -120,15 +126,7 @@ animation: perkscroll 3s linear 0s infinite normal forwards; /* Animation: Name 
 	position: relative;
 }
 
-@keyframes perkscrolla {
-	from {transform: translateY(0px);}
-	to { transform: translateY(600px);}
-}
 
-@keyframes perkscrollb {
-	from { transform: translateY(-1600px);}
-	to { transform: translateY(600px);}
-}
 
 
 #perkheader{
