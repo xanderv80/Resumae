@@ -148,12 +148,10 @@ h6 {
 }
 
 .perkicon {
-	margin: 0px auto;
+	margin: 1px auto;
+	padding: 0%;
 }
 
-.perkicon img:first-child {
-	height:100px;   
-}
 
 
 

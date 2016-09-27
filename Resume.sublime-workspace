@@ -163,7 +163,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2773,
+				"buffer_size": 2488,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -282,15 +282,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2773,
+						"buffer_size": 2488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								545,
-								545
+								2459,
+								2459
 							]
 						],
 						"settings":
@@ -299,7 +299,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 42.0,
+						"translation.y": 1428.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
