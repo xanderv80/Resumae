@@ -163,7 +163,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2572,
+				"buffer_size": 2585,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -282,15 +282,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2572,
+						"buffer_size": 2585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2298,
+								2298
 							]
 						],
 						"settings":
