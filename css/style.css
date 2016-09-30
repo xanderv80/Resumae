@@ -100,7 +100,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 
 #perktree span{
 	display: inline-block;
-	animation: perkscroll 50s linear 0s infinite;
+
 	/*animation: perkscroll 50s linear 0s infinite;*/
 }
 
@@ -160,6 +160,10 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	text-indent: 5px;
 }
 
+@media screen and (max-width: 768px) {
 
+	#perks {display: none;}
+
+}
 
 
