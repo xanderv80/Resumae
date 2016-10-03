@@ -160,10 +160,28 @@
 	"buffers":
 	[
 		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 13745,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 2566,
+				"buffer_size": 2583,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 193,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -185,7 +203,7 @@
 	},
 	"console":
 	{
-		"height": 216.0,
+		"height": 172.0,
 		"history":
 		[
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -206,6 +224,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Xander/Documents/GitHub/Resumae/test.html",
 		"/C/Users/Xander/Documents/GitHub/Resumae/css/style2.css",
 		"/C/Users/Xander/Documents/GitHub/Resumae/index.html",
 		"/C/Users/Xander/Source/Repos/Resumae/index.html",
@@ -273,24 +292,53 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/style.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2566,
+						"buffer_size": 13745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6097,
+								6097
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2047.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1810,
+								1810
 							]
 						],
 						"settings":
@@ -299,10 +347,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1428.0,
+						"translation.y": 1260.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

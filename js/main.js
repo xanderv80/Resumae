@@ -1,3 +1,13 @@
-document.getElementById("perkbtn1").oneclick = function () {
-	document.getElementById("perk1").innerHTML = "Text is changed!";
-}
+		function sayHello(who) {
+		document.write("Hello, " + who);
+		}
+
+
+		function Alpha() {
+			
+						var num1 = 534784;
+			var num2 = 3;
+			var total = num1 + num2;
+			document.write(total);
+
+		}

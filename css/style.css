@@ -101,7 +101,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 #perktree span{
 	display: inline-block;
 
-	/*animation: perkscroll 50s linear 0s infinite;*/
+	animation: perkscroll 50s linear 0s infinite;
 }
 
 #perktree span:hover{
@@ -109,7 +109,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 }
 
 @keyframes perkscroll {
-	from { transform: translateY(28%);}
+	from { transform: translateY(20%);}
 	to { transform: translateY(-100%);}
 }
 
