@@ -38,13 +38,6 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	to { background-position: 255px; }
 }
 
-#canvas{
-	width: 100%;
-	height: 25%;
-	margin: 0px auto;
-	background-color: black; 
-}
-
 
 #info {
 	padding: 1%;
@@ -100,7 +93,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 
 #perktree span{
 	display: inline-block;
-
+	border-radius: 25px;
 	animation: perkscroll 50s linear 0s infinite;
 }
 
@@ -138,13 +131,11 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 }
 
 .perktitle{
-
 	padding: 2%;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 140%;
 	text-align: center;
 	margin: 0% auto;
-
 }
 
 .perktitle img{
@@ -161,9 +152,18 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 }
 
 @media screen and (max-width: 768px) {
-
 	#perks {display: none;}
-
 }
 
-
+#perkinfo {
+	border-radius: 25px;
+	height: 33%;
+	padding: 2%;
+	margin: 0px auto;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 140%;
+	overflow: hidden;
+	font-size: 70%;
+	color: #9999cc;
+	background-color: #003366;
+}

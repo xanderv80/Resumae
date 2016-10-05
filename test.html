@@ -7,21 +7,28 @@
 	<title>!TEST!</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script type="text/javascript">
-	function sayHello(who){
-		document.write("Hello, " + who);
-	}
-</script>
 
 </head>
 
 <body>
-<script type="text/javascript">
-	sayHello("Bob");
-	document.write("<br>");
-	sayHello("Mary");
-</script>
-	
+
+
+
+
+	<button onclick="document.getElementById('megaman').style.display='none'">Hide button</button>
+	<button type='button' onclick='hide1()'>Hide button 2</button>
+
+	<img id="megaman" src="img/8bitMegaMan.png">
+
+	<button onclick="document.getElementById('megaman').style.display='inline'">Show button</button>
+
+
+	<script>
+		function hide1() {
+			document.getElementById('megaman').style.display='inline';
+		}
+	</script>
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
