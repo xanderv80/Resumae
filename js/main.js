@@ -11,3 +11,9 @@
 			document.write(total);
 
 		}
+
+		function skill1(){
+
+			document.getElementById('perkinfo').innerHTML='Test Info';
+
+		}

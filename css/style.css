@@ -48,7 +48,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	font-size: 80%;
 	float: left;
 	border: 1px solid transparent;
-	height: 100%;
+	height: 95%;
 }
 
 #details{
@@ -68,7 +68,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 #perks {
 	border-radius: 25px;
 	background-color: #000033;
-	height: 100%;
+	height: 95%;
 	float: right; 
 	padding: 1%; 
 	margin: 1% 0;
@@ -94,7 +94,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 #perktree span{
 	display: inline-block;
 	border-radius: 25px;
-	animation: perkscroll 50s linear 0s infinite;
+	/*animation: perkscroll 50s linear 0s infinite;*/
 }
 
 #perktree span:hover{
@@ -119,6 +119,8 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	width: 100%;
 	margin: 0px auto;
 	display: inline-block;
+	cursor: pointer;
+
 }
 
 #perkheader{
@@ -149,6 +151,8 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	padding: 2%;
 	position: relative;
 	text-indent: 5px;
+	text-align: center;
+	vertical-align:middle;
 }
 
 @media screen and (max-width: 768px) {
@@ -163,7 +167,8 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	font-family: 'Press Start 2P', cursive;
 	font-size: 140%;
 	overflow: hidden;
-	font-size: 70%;
+	font-size: 90%;
 	color: #9999cc;
 	background-color: #003366;
+	text-align: center;
 }
