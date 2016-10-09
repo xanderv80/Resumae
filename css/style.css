@@ -94,11 +94,11 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 #perktree span{
 	display: inline-block;
 	border-radius: 25px;
-	/*animation: perkscroll 50s linear 0s infinite;*/
+	animation: perkscroll 50s linear 0s infinite;
 }
 
 #perktree span:hover{
-	animation-play-state: paused;
+	animation-play-state: paused;	
 }
 
 @keyframes perkscroll {
@@ -107,22 +107,6 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 }
 
 
-
-.perkbox{
-	background-color: #003366;
-	color: #9999cc;
-	padding: 1%;
-	overflow: hidden;
-	font-family: 'Press Start 2P', cursive;
-	font-size: 50%;
-	border-radius: 25px;
-	width: 100%;
-	margin: 0px auto;
-	display: inline-block;
-	cursor: pointer;
-
-}
-
 #perkheader{
 	padding: 2%;
 	margin: 0% 0;
@@ -130,33 +114,6 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	color: #000099;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 120%;
-}
-
-.perktitle{
-	padding: 2%;
-	font-family: 'Press Start 2P', cursive;
-	font-size: 140%;
-	text-align: center;
-	margin: 0% auto;
-}
-
-.perktitle img{
-	margin: 1px auto;
-	padding: 0%;
-}
-
-.perkdetails {
-	height: 100%;
-	margin: 0% auto;
-	padding: 2%;
-	position: relative;
-	text-indent: 5px;
-	text-align: center;
-	vertical-align:middle;
-}
-
-@media screen and (max-width: 768px) {
-	#perks {display: none;}
 }
 
 #perkinfo {
@@ -172,3 +129,50 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	background-color: #003366;
 	text-align: center;
 }
+
+.perkbox{
+	background-color: #003366;
+	color: #9999cc;
+	padding: 1%;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 50%;
+	border-radius: 25px;
+	width: 100%;
+	margin: 2%;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	transition: all 300ms ease-in 0s;
+}
+
+.perkbox:hover{
+	background-color: #b3cce6;
+	color: #0d1a26 !important;
+	transition: all 450ms ease-out 0s;
+}
+
+.perkbox img {
+	height: 150px;
+	width: 150px;
+	float: left;
+	position: relative;
+}
+
+.perkflavor {
+	margin: 0% auto;
+	padding: 2%;
+	text-align: center;
+	height: 150px;
+	vertical-align: middle;
+}
+
+.perkflavor p {
+	font-size: 150%;
+	font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+	#perks {display: none;}
+}
+
+

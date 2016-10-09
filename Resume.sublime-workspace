@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"e",
+				"em\tTag"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"col",
+				"col-sm-4"
+			],
+			[
 				"align",
 				"align-self"
 			],
@@ -26,10 +46,6 @@
 			[
 				"p",
 				"position"
-			],
-			[
-				"bo",
-				"bottom"
 			],
 			[
 				"pad",
@@ -171,41 +187,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 13199,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 2823,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test.html",
-			"settings":
-			{
-				"buffer_size": 1090,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/main.js",
-			"settings":
-			{
-				"buffer_size": 283,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -277,7 +258,7 @@
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -291,6 +272,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</em>",
+			"<em>",
+			"</h6>",
+			"<h6>",
+			"<div class=\"perkdetails container-fluid col-sm-8 col-md-8 col-lg-8\">",
+			"<br><br>",
+			"<div class=\"perktitle container col-sm-4 col-md-4 col-lg-4\">",
+			"<!-- Perkdetails-->",
+			"<!-- Perkdetails -->",
+			"<div class=\"perkbox container-fluid\">",
 			"style=\"text-decoration: none\"",
 			"oi"
 		],
@@ -300,6 +291,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"</p>",
+			"<p>",
+			"<h4>",
+			"<div class=\"perkflavor\">",
+			"",
+			"<a id=\"skill2\" class=\"perkbox container-fluid\">",
 			"",
 			"li"
 		],
@@ -312,130 +309,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6063,
-								6063
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1907.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2823,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2036,
-								2036
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1344.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "test.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1090,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								813,
-								752
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								283,
-								283
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -476,7 +357,7 @@
 	"project": "Resume.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
