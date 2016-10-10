@@ -55,7 +55,6 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	background-color: #003366;
 	border-radius: 25px;
 	height: 90%;
-	
 }
 
 .infotext{
@@ -66,7 +65,6 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 
 
 #perks {
-	border-radius: 25px;
 	background-color: #000033;
 	height: 95%;
 	float: right; 
@@ -74,46 +72,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	margin: 1% 0;
 	position: relative;
 	overflow: hidden;
-}
-
-#perktree{
-	background-color: #000033;
-	margin: 0px auto;
 	border-radius: 25px;
-	align-content: center;
-	overflow-y: scroll;
-	padding: 0;
-	height: 90%;
-	display: block;
-}
-
-::-webkit-scrollbar { 
-	display: none; 
-}
-
-#perktree span{
-	display: inline-block;
-	border-radius: 25px;
-	animation: perkscroll 50s linear 0s infinite;
-}
-
-#perktree span:hover{
-	animation-play-state: paused;	
-}
-
-@keyframes perkscroll {
-	from { transform: translateY(20%);}
-	to { transform: translateY(-100%);}
-}
-
-
-#perkheader{
-	padding: 2%;
-	margin: 0% 0;
-	text-align: center;
-	color: #000099;
-	font-family: 'Press Start 2P', cursive;
-	font-size: 120%;
 }
 
 #perkinfo {
@@ -130,6 +89,45 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	text-align: center;
 }
 
+#perktree{
+	background-color: #000033;
+	margin: 0px auto;
+	border-radius: 25px;
+	align-content: center;
+	overflow-y: scroll;
+	padding: 1%;
+	height: 90%;
+	display: block;
+	margin-top: 1%;
+}
+
+::-webkit-scrollbar { 
+	display: none; 
+}
+
+#perktree span{
+	display: inline-block;
+	animation: perkscroll 50s linear 0s infinite;
+}
+
+#perktree span:hover{
+	animation-play-state: paused;	
+}
+
+@keyframes perkscroll {
+	from { transform: translateY(20%);}
+	to { transform: translateY(-100%);}
+}
+
+#perkheader{
+	padding: 2%;
+	margin: 0% 0;
+	text-align: center;
+	color: #000099;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 120%;
+}
+
 .perkbox{
 	background-color: #003366;
 	color: #9999cc;
@@ -138,7 +136,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	font-size: 50%;
 	border-radius: 25px;
 	width: 100%;
-	margin: 2%;
+	margin: 1%;
 	display: block;
 	cursor: pointer;
 	position: relative;
