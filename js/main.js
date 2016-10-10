@@ -54,8 +54,11 @@
 			document.getElementById('perkinfo').innerHTML="Educator";
 		}
 
+		function egg(){
+			document.getElementById('easteregg').innerHTML="You Found My Easter Egg!";
+		}
 		
-		
+
 
 		
 

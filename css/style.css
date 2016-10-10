@@ -29,7 +29,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	width: 100%;
 	height: 100%;
 	margin: 0px auto;
-	background: url("C:/Users/Xander/Documents/GitHub/Resumae/img/MMTile.png");
+	background: url("../img/MMTile.png");
 	animation: megaman linear 12s infinite;
 }
 
@@ -51,10 +51,43 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	height: 95%;
 }
 
+#about a img {
+    display:block;
+    margin:auto;
+}
+
+#egg {
+	float: right;
+	display: inline-block;
+	position: relative;
+	height: 75px;
+}
+
+#work {
+	text-align: center;
+}
+
+#ref {
+	text-align: center;
+}
+#ref h5 {
+	text-align: center;
+}
+#ref h4 {
+	text-align: center;
+}
+#ref h3 {
+	text-align: center;
+}
+#ref p {
+	text-align: center;
+}
+
 #details{
 	background-color: #003366;
 	border-radius: 25px;
 	height: 90%;
+	position: relative;
 }
 
 .infotext{
