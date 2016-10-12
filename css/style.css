@@ -143,7 +143,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 
 #perktree span{
 	display: inline-block;
-	animation: perkscroll 50s linear 0s infinite;
+	/*animation: perkscroll 50s linear 0s infinite;*/
 }
 
 #perktree span:hover{
