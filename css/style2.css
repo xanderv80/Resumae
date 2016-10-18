@@ -158,3 +158,55 @@ animation: perkscroll 3s linear 0s infinite normal forwards; /* Animation: Name 
 
 
 
+    /* For mobile phones: */
+@media screen and (max-width: 600px) {
+	#perks {display: none;}
+	#profilesm {
+		display: block;
+		margin: auto;
+		margin-bottom: 2%;
+	}
+	#profiletextsm{
+		display: block;
+	}
+	#profiletextlg{
+		display: none;
+	}
+
+	#profilelg {
+		display: none;
+	}
+
+	#intro h2 {
+		font-size: 15px;
+	}
+	#intro p {
+		font-size: 10px;
+	}
+	#info{
+		margin-top: 6%;
+	}
+
+}
+
+@media screen and (min-width: 740px) {
+	#profilesm {
+		display: none;
+	}
+	#profiletextsm{
+		display: block;
+	}
+	#profiletextlg{
+		display: block;
+	}
+
+	#perks{
+		display: block;
+	}
+
+	#profilelg {
+		display: inline-block;
+	}
+
+					<img id="profilesm" src="./img/xandernerdsm.png" alt="Grapic Artist">
+	
