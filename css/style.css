@@ -302,7 +302,7 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 		font-size: 2rem;
 	}
 	#about a img{
-		height: 50px;
+		height: 40px;
 	}
 	#perks{
 		display: none;
