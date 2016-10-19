@@ -288,9 +288,6 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 		display: none;
 	}
 
-	#profilelg{
-		display: none;
-	}
 	#profilesm{
 		display: block;
 		height: 200px;
@@ -358,7 +355,9 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	#contact a img{
 		height: 50px;
 	}
-
+	#resume {
+	display: none;
+	}
 
 
 
@@ -381,10 +380,25 @@ a:hover, a:visited, a:link, a:active, a:focus, a:click {
 	}
 	#work p {
 		font-size: 1em;
-		margin-bottom: 2%
+		margin-bottom: 1%
 	}
 }
 
+	#profilesm{
+		height: 200px;
+	}
+	#about a img{
+		height: 60px;
+	}
+	#about img{
+		height: 180px;
+	}
+	#perkinfo{
+		height: 45%;
+	}
+	#perkinfo img{
+		height: 150px;
+	}
 
 }
 

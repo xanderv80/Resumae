@@ -1,5 +1,5 @@
 		function skill1(){
-			document.getElementById('perkinfo').innerHTML="There is more to just speaking Spanish in order for it to be truly beneficial for work. In order to market or provide services to the Hispanic community, their needs to be an understanding of the many distinct Latin cultures. Anyone can use Google translate, but it takes familiarity with the culture to know when to  substitute tamales for pancakes instead of pan dulce.";
+			document.getElementById('perkinfo').innerHTML="<br><br>There is more to just speaking Spanish in order for it to be truly beneficial for work. In order to market or provide services to the Hispanic community, their needs to be an understanding of the many distinct Latin cultures. Anyone can use Google translate, but it takes familiarity with the culture to know when to  substitute tamales for pancakes instead of pan dulce.";
 		}
 
 		function skill2(){
@@ -23,35 +23,35 @@
 		}
 		
 		function skill7(){
-			document.getElementById('perkinfo').innerHTML="E-Commerce";
+			document.getElementById('perkinfo').innerHTML="I have setup online ticket sales for events and small online stores for first time enterprenuers and their startups";
 		}
 		
 		function skill8(){
-			document.getElementById('perkinfo').innerHTML="Videography";
+			document.getElementById('perkinfo').innerHTML="I have made a lot of videos which can be seen on my YouTube channel. Look in the contact tab for the link. I know how to work in Adobe Premiere, Sony Vegas, Cyberlink PowerDirector. I can also do my own special effects ";
 		}
 		
 		function skill9(){
-			document.getElementById('perkinfo').innerHTML="Graphic Artist";
+			document.getElementById('perkinfo').innerHTML="<a target='_blank' href='http://jalexvillasenor.deviantart.com/'><img src='./img/Deviant_Art.png'></a>Deviant Art. I've been an artist all my life, but there is only so much you can do with traditional mediums. Today's canvas is the digital screen and software like Photoshop and Maya are merely brushes.";
 		}
 		
 		function skill10(){
-			document.getElementById('perkinfo').innerHTML="Software Developer";
+			document.getElementById('perkinfo').innerHTML="HTML , CSS, JavaScript C#, SQL, Ruby";
 		}
 
 		function skill11(){
-			document.getElementById('perkinfo').innerHTML="ProtoTyping";
+			document.getElementById('perkinfo').innerHTML="Arduino Breadboards, microprocessors Internet of things";
 		}
 		
 		function skill12(){
-			document.getElementById('perkinfo').innerHTML="3D Modeling";
+			document.getElementById('perkinfo').innerHTML="3D modeling isn't just for game assets, designs can be used for effective backgrounds for 2D projects. HTML5 canvas and WebGL utilizes 3D skills Zbrush Blender Maya";
 		}
 
 		function skill13(){
-			document.getElementById('perkinfo').innerHTML="Game Designer";
+			document.getElementById('perkinfo').innerHTML="I use the following software for specific situations. Scratch.edu : Teaching basic programming logic. Sploder : Teaching basic game design. Unity : Mobile and Desktop apps. All logic";
 		}
 
 		function skill14(){
-			document.getElementById('perkinfo').innerHTML="Educator";
+			document.getElementById('perkinfo').innerHTML="Teacher, Instructor, Trainer, Educator I’ve been teaching digital literacy for 6 years but have been an educator all of my life. Visit my website KC Tech School to see what I’ve been teaching or check out this video to see some of my students.";
 		}
 
 	
